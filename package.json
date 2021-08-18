@@ -2,7 +2,7 @@
 	"name": "fluttermimic",
 	"displayName": "Flutter Mimic",
 	"description": "A simple extension to mimic Flutter lib folder into test folder.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.59.0"
 	},
@@ -16,9 +16,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onStartupFinished",
-		"onCommand:facily-scaffold.helloWorld",
-		"onCommand:facily-scaffold.createScaffold"
+		"*"
 	],
 	"main": "./extension.js",
 	"contributes": {
