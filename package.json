@@ -1,10 +1,16 @@
 {
-	"name": "flutter_mimic",
+	"name": "fluttermimic",
 	"displayName": "Flutter Mimic",
 	"description": "A simple extension to mimic Flutter lib folder into test folder.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.59.0"
+	},
+	"icon": "src/icon.png",
+	"publisher":"ItzBala",
+	"repository": {
+		"url": "https://github.com/LucasCastelo/flutter_mimic",
+		"type": "git"
 	},
 	"categories": [
 		"Other"
