@@ -2,6 +2,7 @@ const vscode = require('vscode');
 const { createHandler, renameHandler } = require('./src/handlers');
 
 function activate(context) {
+	vscode.window.showInformationMessage("Flutter Mimic Active!");
 	let nextActionIsRename = false;
 	let watcher = vscode.workspace.createFileSystemWatcher('**/*')
 
@@ -28,7 +29,7 @@ function activate(context) {
 
 	vscode.workspace.onDidDeleteFiles((e)=>{
 		vscode.window.showInformationMessage("Flutter Mimic: Files arent deleted automatic.");
-	})
+	});
 
 	context.subscriptions.push(watcher);
 } 

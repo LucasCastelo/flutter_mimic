@@ -2,12 +2,12 @@
 	"name": "fluttermimic",
 	"displayName": "Flutter Mimic",
 	"description": "A simple extension to mimic Flutter lib folder into test folder.",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.59.0"
 	},
 	"icon": "src/icon.png",
-	"publisher":"ItzBala",
+	"publisher": "ItzBala",
 	"repository": {
 		"url": "https://github.com/LucasCastelo/flutter_mimic",
 		"type": "git"
@@ -16,6 +16,7 @@
 		"Other"
 	],
 	"activationEvents": [
+		"onStartupFinished",
 		"*"
 	],
 	"main": "./extension.js",
@@ -46,5 +47,8 @@
 		"mocha": "^8.4.0",
 		"typescript": "^4.3.2",
 		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"mkdirp": "^1.0.4"
 	}
 }
