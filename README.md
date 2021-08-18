@@ -1,14 +1,14 @@
-# Flutter Mimic README
+# Flutter Mimic
 
 ## Features
 
 All the *.dart files and/or folders that you create/rename/move in test or lib folder will be mirrored in the other.
 
 Limitations:
-It only mimics .dart files and folders, it wont work any other extension file. This is a open-source project so feel free to
+It only mimics .dart files and folders, it wont work with any other extension file. This is a open-source project so feel free to
 extend and change this behaviour.
 
-ATTENTION: Only for *.dart files and folders
+**ATTENTION: Only for *.dart files and folders**
 
 Deletion, i choose not to automatic delete. So for deletion you have to do it all by hand. This is to avoid, accidental
 deletions of test suites.
